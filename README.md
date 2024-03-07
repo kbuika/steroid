@@ -8,7 +8,7 @@ After cloning the project and installing dependencies, ideally with `pnpm`,
 
 - Run `pnpm dev` to compile the Typescript code.
 
-- Run `pnpm link-cli` - this will unlink and link the project `./dist/index.js` to your global package bin directory
+- Run `pnpm link-cli` - this makes the current local package accessible system-wide
 
 - You can now run `steroid` in your terminal. If this does not work and you are not on windows, try the `pnpm sudo-link-cli` command or the `pnpm chmod-cli`
 
