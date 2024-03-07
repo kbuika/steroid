@@ -1,0 +1,25 @@
+{
+  "name": "steroid",
+  "version": "0.0.0",
+  "description": "A CLI to scaffold your favourite Javascript Framework with build tools, templates, styling and linting configurations ready to go",
+  "bin": {
+    "steroid": "./dist/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "link-cli": "yarn unlink --global steroid && yarn link --global",
+    "sudo-link-cli": "sudo yarn unlink --global steroid && sudo yarn link --global",
+    "chmod-cli": "chmod +x dist/index.js"
+  },
+  "keywords": [],
+  "author": "Steve Kibuika",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
