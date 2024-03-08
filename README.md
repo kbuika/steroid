@@ -10,6 +10,6 @@ After cloning the project and installing dependencies, ideally with `pnpm`,
 
 - Run `pnpm link-cli` - this makes the current local package accessible system-wide
 
-- You can now run `steroid` in your terminal. If this does not work and you are not on windows, try the `pnpm sudo-link-cli` command or the `pnpm chmod-cli`
+- You can now run `steroid` in your terminal. If this does not work and you are not on windows, try the `pnpm sudo-link-cli`.
 
 If your issues persist goodluck explaining that to ChatGPT or Gemini

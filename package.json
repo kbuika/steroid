@@ -8,9 +8,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch",
-    "link-cli": "yarn unlink --global steroid && yarn link --global",
-    "sudo-link-cli": "sudo yarn unlink --global steroid && sudo yarn link --global",
-    "chmod-cli": "chmod +x dist/index.js"
+    "link-cli": "(yarn unlink --global steroid || true) && chmod +x dist/index.js && yarn link --global",
+    "sudo-link-cli": "(sudo yarn unlink --global steroid || true) && chmod +x dist/index.js && sudo yarn link --global"
   },
   "keywords": [],
   "author": "Steve Kibuika",
